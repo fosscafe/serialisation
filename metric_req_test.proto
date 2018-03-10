@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+message Metric {
+	required string name = 1;
+	required string type = 2;
+	required float value = 3;
+	required string tags = 4;
+	required string test1 = 5;
+	required string test2 = 6;
+	required string test3 = 7;
+}
